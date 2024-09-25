@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../node_modules/@infinit-xyz/cli/dist/schemas/config/config.schema.json
+
+project_name: zunxbt
+protocol_module: uniswap-v3
+chain_info:
+  name: '[Testnet] Sepolia'
+  short_name: Sepolia
+  network_id: 11155111
+  native_currency:
+    name: Ethereum
+    symbol: ETH
+    decimals: 18
+  rpc_url: https://eth-sepolia.public.blastapi.io
+allow_analytics: true
+
